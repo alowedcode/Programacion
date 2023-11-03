@@ -1,0 +1,96 @@
+body {
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=3963&resolucion=1920x1080);
+}
+.divs img {
+    width: 250px;
+    height: 250px;
+    transition: all 1s;
+}
+.div-mayor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    width: 97vw;
+}
+#goku {
+ width: 360px;
+ height: 400px;
+ position: relative;
+ left: 150px;
+ z-index: 5;
+}
+#picollo {
+    width: 380px;
+    height: 400px;
+    position: relative;
+    left: 50px;
+}
+#vegeta {
+    width: 310px;
+    height: 400px;
+    position: relative;
+}
+#trunks {
+    width: 320px;
+    height: 400px;
+    position: relative;
+    right: 100px;
+}
+#gohan {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    right: 200px;
+}
+#goku:hover, #picollo:hover, #vegeta:hover, #trunks:hover, #gohan:hover {
+    transform: scale(1.2); /* Escala al 110% al pasar el mouse */
+
+}
+.viñ-goku {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    left: 250px;
+    opacity: 0;
+    transition: all 1s;
+}
+.viñ-picollo {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    left: 200px;
+    opacity: 0;
+    transition: all 1s;
+}
+.viñ-vegeta {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    left: 100px;
+    opacity: 0;
+    transition: all 1s;
+} 
+.viñ-trunks {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    left: 40px;
+    opacity: 0;
+    transition: all 1s;
+}
+.viñ-gohan {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    right: 30px;
+    opacity: 0;
+    transition: all 1s;
+}
+.divs:hover .viñ-goku, .divs:hover .viñ-picollo, .divs:hover .viñ-vegeta, .divs:hover .viñ-trunks, .divs:hover .viñ-gohan {
+    opacity: 1; /* Cambia la opacidad a 1 al pasar el mouse sobre el contenedor .divs */
+}
+.button-goku {
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    left: 0px;
+    opacity: 1;
+}
